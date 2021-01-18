@@ -1,5 +1,5 @@
 import React from "react";
-import confLogo from "../components/images/starweaver.png"
+import confLogo from '../components/images/starweaver.png'
 
 class Badge extends React.Component {
   render() {
@@ -7,6 +7,8 @@ class Badge extends React.Component {
       <div>
         <div>
           <img src={confLogo} alt="Logo de la conferencia"></img>
+        
+        
         </div>
 
         <div>
