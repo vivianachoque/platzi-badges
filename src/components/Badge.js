@@ -1,6 +1,6 @@
 import React from "react";
-import "../components/styles/Badge.css"
-import confLogo from '../components/images/starweaver.png'
+import "../components/styles/Badge.css";
+import confLogo from '../components/images/starweaver.png';
 
 class Badge extends React.Component {
   render() {
@@ -15,15 +15,13 @@ class Badge extends React.Component {
             src="https://media-exp1.licdn.com/dms/image/C4E03AQHSKeMv1M_sQA/profile-displayphoto-shrink_200_200/0/1579720850585?e=1616630400&v=beta&t=nhrsorx-LpCsx_roSvjmfVQDhsTtvS4R4kgbnC2nELQ" 
             alt="Avatar"/>
         <div>
-          <h1>Viviana Choque</h1>
+          <h1>Viviana <br /> Choque</h1>
         </div>
-
         </div>
-
 
         <div className="badge_section-info">
-          <p>Front-End Dev</p>
-          <p>@starweavergroup</p>
+          <h3>Front-End Dev</h3>
+          <div>@starweavergroup</div>
         </div>
         <div className="badge_footer">#StarweaverConf</div>
       </div>

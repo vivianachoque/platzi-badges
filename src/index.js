@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import "bootstrap/dist/css/bootstrap.css";
 
-import Badge from './components/Badge'
+import './global.css';
+import Badge from './components/Badge';
 
 ReactDOM.render(
   <React.StrictMode>
